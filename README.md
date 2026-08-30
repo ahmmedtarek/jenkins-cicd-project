@@ -58,30 +58,23 @@ The target group's healthy threshold (5 consecutive checks × 30s interval = 150
 ## Screenshots
 
 **Jenkins pipeline run — start**
-![Jenkins console start](./01-jenkins-console-start.png)
+<img width="1920" height="1080" alt="Screenshot from 2026-08-30 22-33-42" src="https://github.com/user-attachments/assets/0ef22c9c-c35b-487d-9ac8-3359cc187ae9" />
+
 
 **Jenkins pipeline run — success**
-![Jenkins pipeline success](./02-jenkins-pipeline-success.png)
+<img width="1920" height="1080" alt="Screenshot from 2026-08-30 22-33-49" src="https://github.com/user-attachments/assets/b5a76bbd-cd36-493f-8f10-4b640e1c81d3" />
 
 **Image pushed to Amazon ECR**
-![ECR image pushed](./03-ecr-image-pushed.png)
+<img width="1920" height="1080" alt="Screenshot from 2026-08-30 22-32-52" src="https://github.com/user-attachments/assets/d34a7579-b04a-4aa4-884e-49e900422013" />
 
 **ECS service deployment — new task rolled out**
-![ECS service deployment](./04-ecs-service-deployment.png)
+<img width="1920" height="1080" alt="Screenshot from 2026-08-30 22-31-46" src="https://github.com/user-attachments/assets/7918c4e4-3a41-4888-8a16-2fe4855c948a" />
 
 **ALB target group — target healthy**
-![Target group healthy](./05-target-group-healthy.png)
+<img width="1920" height="1080" alt="Screenshot from 2026-08-30 22-32-05" src="https://github.com/user-attachments/assets/07e77719-1634-4c35-9c5d-936b82521de6" />
 
 **Application Load Balancer configuration**
-![ALB listener](./06-alb-listener.png)
+<img width="1920" height="1080" alt="Screenshot from 2026-08-30 22-31-57" src="https://github.com/user-attachments/assets/08ac0ccf-b8fb-44d4-b248-4cfee66af8d4" />
 
 **Live site served through the ALB**
-![Live site](./07-live-site.png)
-
-## What's next
-
-- [ ] Move infrastructure (VPC, ECS cluster, ALB, security groups) to Terraform
-- [ ] Store AWS credentials via Jenkins Credentials Plugin instead of inline
-- [ ] Add HTTPS via an ACM certificate on the ALB
-- [ ] Add container image scanning (Trivy or ECR scan-on-push)
-- [ ] Add Slack/email notifications on deploy success or failure
+<img width="1920" height="1080" alt="Screenshot from 2026-08-30 22-34-54" src="https://github.com/user-attachments/assets/09daab09-7a12-4950-a395-14376ad6b13d" />

@@ -1,5 +1,8 @@
 # CI/CD Pipeline for Dockerized Nginx App on AWS ECS
 
+<img width="1408" height="768" alt="Gemini_Generated_Image_4pwvmz4pwvmz4pwv" src="https://github.com/user-attachments/assets/f7f86885-f21b-4a09-ad3a-1dc681dae77d" />
+
+
 A fully automated CI/CD pipeline: every push to GitHub triggers a Jenkins pipeline that builds a Docker image, tests it, pushes it to Amazon ECR, and deploys it to Amazon ECS (Fargate) behind an Application Load Balancer — with zero manual steps.
 
 ## Architecture
